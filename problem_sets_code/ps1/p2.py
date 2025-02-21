@@ -27,7 +27,6 @@ Returns:
     camera_matrix - The calibrated camera matrix (3x4 matrix)
 '''
 def compute_camera_matrix(real_XY, front_image, back_image):
-    # TODO: Fill in this code
     # Hint: reshape your values such that you have PM=p,
     # and use np.linalg.lstsq or np.linalg.pinv to solve for M.
     # See https://apimirror.com/numpy~1.11/generated/numpy.linalg.pinv
